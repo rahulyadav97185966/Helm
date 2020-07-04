@@ -36,6 +36,6 @@ Helm is widely used as it more functional.
      19  kubectl get all
      20  kubectl edit svc service/my-release-apache
      21  kubectl edit service service/my-release-apache
-     22  kubectl edit service my-release-apache
+     22  kubectl edit service my-release-apache : just change loadbalancer to nodeport to access it outside of the cluster
      23  kubectl get all
      24  curl 10.104.240.44
